@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Etape4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#009688"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Résultats"
+            android:textColor="#E4DEDE"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+        <ListView
+            android:id="@+id/lstFinal"
+            android:layout_width="match_parent"
+            android:layout_height="491dp"
+            android:layout_marginTop="10dp"
+            android:background="#009688" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/recommencer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="5dp"
+
+                android:text="Recommencer"
+                android:textSize="16sp"
+                app:backgroundTint="#B63D3D"
+                tools:ignore="TouchTargetSizeCheck" />
+
+
+            <Button
+                android:id="@+id/gPdf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:cursorVisible="false"
+                android:text="Générer PDF"
+                android:textSize="16sp"
+                app:backgroundTint="#B63D3D"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="170dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0dp"
+            android:text="Exit"
+            android:textSize="16sp"
+            app:backgroundTint="#B63D3D"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:orientation="vertical"
+    tools:context=".Etape2">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="35dp"
+        android:text="Etape 2"
+        android:textColor="#F3EBEB"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:id="@+id/messageListe"
+        android:layout_width="256dp"
+        android:layout_height="33dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:textColor="#CDDC39"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/nomListe"
+
+        android:layout_width="347dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Nom du parti"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+    <EditText
+        android:id="@+id/voixListe"
+
+        android:layout_width="344dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Nombre de voix"
+
+        android:inputType="number"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+    <TextView
+        android:id="@+id/messageError2"
+        android:layout_width="333dp"
+        android:layout_height="82dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="#FFEB3B"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/ajouter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+
+        android:layout_marginRight="30dp"
+        android:text="Enregistrer "
+        android:textColor="#EDE6E6"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="#B63D3D" />
+
+
+</LinearLayout>
